@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie-edge">
+        <meta charset="UTF-8">
+        <title>MercadoLiebre</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <link href="./css/signup.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+rel="stylesheet"/>
+    </head>
+    <body>
+        <form action="" method=POST>
+            <img class="logo" src="./images/logo-mercado-liebre.svg">
+            <label class="instruccion" >Escribe tus datos</label>
+            <div class="campos">
+                <div class="datos1">
+                    <input type="text" name="nombre" id="nombre" placeholder="Nombre">
+                    <input type="text" name="apellido" id="apellido" placeholder="Apellido">
+                    <input type="date" name="fecha" id="fecha">
+                    <input type="text" name="usuario" id="usuario" placeholder="Usuario">
+                    <input type="text" name="domicilio" id="domicilio" placeholder="Domicilio">
+                </div>
+                <label for="perfil" class="titulos">Seleccione su perfil de usuario</label>
+                    <label>
+                        <input type="radio" name="perfil" id="perfil" value="Vender">Vender
+                    </label>
+                    <label>
+                        <input type="radio" name="perfil" id="perfil" value="Comprar">Comprar
+                    </label>
+                <label for="interes" class="titulos">Seleccione sus preferencias (puede elegir más de una) </label>
+                    <label>
+                        <input type="checkbox" name="interes" id="interes" value="electro">Electro
+                    </label>
+                    <label>
+                        <input type="checkbox" name="interes" id="interes" value="moda">Moda
+                    </label>
+                    <label>
+                        <input type="checkbox" name="interes" id="interes" value="hogar">Hogar
+                    </label>
+                    <label>
+                        <input type="checkbox" name="interes" id="interes" value="jugueteria">Juguetería
+                    </label>
+                    <label>
+                        <input type="checkbox" name="interes" id="interes" value="vida sana">Vida sana
+                    </label>
+                <label for="contraseña" class="titulos">Escriba su contraseña</label>
+                <div class="datos1">
+                    <input type="password" name="contraseña" id="contraseña1" placeholder="Contraseña">
+                    <input type="password" name="contraseña2" id="contraseña2" placeholder="Confirmar contraseña">
+                </div>
+                <label for="foto" class="titulos">Seleccione una imagen de perfil</label>
+                <input type="file" name="foto" id="foto" accept=".jpg">
+            </div>
+            <button type="submit"><a href='/home'>Registrarse</a></button>
+            <button type="reset" id="borrar">Borrar todo</a></button>
+        </form>
+
+    </body>
+</html>

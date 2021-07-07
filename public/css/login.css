@@ -1,0 +1,71 @@
+body{
+    margin:0px;
+}
+form{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    align-items:center;
+    width: 100vw;
+    height: 100vh;
+    background-color:#1259c3;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.logo{ 
+    width:60%;
+    margin-top: 5%;
+
+}
+
+label{
+    font-size: 20px;
+    
+}
+
+.campos{
+    display:flex;
+    flex-direction: column;
+    border-radius: 20px;
+    height: 15%;
+    justify-content: space-between;
+    width: 60%;
+    position:relative;
+    bottom:4%;
+}
+
+#nombre, #contraseña{
+    height: 35%;
+    border-radius: 20px;
+    border: #666 2px solid;
+    font-size:20px ;
+    text-align: center;
+}
+
+button{
+    height: 9%;
+    border-radius: 30px;
+    border: #666 2px solid;
+    font-size:20px ;
+    text-align: center;
+    width: 30%;
+    position:relative;
+    bottom:10%;
+    background-color:#EAC926;
+    color:#666;
+    font-weight: bold;
+}
+
+button:hover{
+    background-color: #0022AA;
+}
+
+@media(min-width:700px){
+
+    button{
+        margin-top: 1%;
+    }
+
+}
+
