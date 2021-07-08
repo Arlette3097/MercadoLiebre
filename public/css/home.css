@@ -133,6 +133,7 @@ img{
 
 .producto{
     font-size:16px;
+    display: none;
 }
 
 
@@ -208,10 +209,13 @@ footer{
         transition: all 0.5s ease-out;
     }
 
-    .info:hover #camion {
+    .article:hover #camion {
         transform: rotate(-90deg);
     }
 
+    .article:hover .producto{
+        display:block;
+    }
 
     img{
         width: 100%;
