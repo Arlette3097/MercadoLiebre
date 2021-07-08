@@ -18,11 +18,11 @@ rel="stylesheet"/>
             <label class="instruccion" >Escribe tus datos</label>
             <div class="campos">
                 <div class="datos1">
-                    <input type="text" name="nombre" id="nombre" placeholder="Nombre">
-                    <input type="text" name="apellido" id="apellido" placeholder="Apellido">
-                    <input type="date" name="fecha" id="fecha">
-                    <input type="text" name="usuario" id="usuario" placeholder="Usuario">
-                    <input type="text" name="domicilio" id="domicilio" placeholder="Domicilio">
+                    <input type="text" name="nombre" id="nombre" placeholder="Nombre" required>
+                    <input type="text" name="apellido" id="apellido" placeholder="Apellido" required>
+                    <input type="date" name="fecha" id="fecha" required>
+                    <input type="text" name="usuario" id="usuario" placeholder="Usuario" required>
+                    <input type="text" name="domicilio" id="domicilio" placeholder="Domicilio" required>
                 </div>
                 <label for="perfil" class="titulos">Seleccione su perfil de usuario</label>
                     <label>
@@ -47,10 +47,10 @@ rel="stylesheet"/>
                     <label>
                         <input type="checkbox" name="interes" id="interes" value="vida sana">Vida sana
                     </label>
-                <label for="contraseña" class="titulos">Escriba su contraseña</label>
+                <label for="contraseña" class="titulos" >Escriba su contraseña</label>
                 <div class="datos1">
-                    <input type="password" name="contraseña" id="contraseña1" placeholder="Contraseña">
-                    <input type="password" name="contraseña2" id="contraseña2" placeholder="Confirmar contraseña">
+                    <input type="password" name="contraseña" id="contraseña1" placeholder="Contraseña" required>
+                    <input type="password" name="contraseña2" id="contraseña2" placeholder="Confirmar contraseña" required>
                 </div>
                 <label for="foto" class="titulos">Seleccione una imagen de perfil</label>
                 <input type="file" name="foto" id="foto" accept=".jpg">
